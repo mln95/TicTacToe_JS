@@ -1,0 +1,29 @@
+header{
+    .player {
+        position: relative;
+        &One {
+            background-color: #55CC1F;
+            margin: 0;
+            display: inline;
+            padding: 0.625em;
+            position: absolute;
+            left: 0;
+            color: #ffffff;
+            font-weight: bold;
+        }
+        &Two {
+            background-color: #55CC1F;
+            display: inline;
+            text-align: right;
+            position: absolute;
+            right: 0;
+            margin: 0;
+            padding: 0.625em;
+            color: #ffffff;
+            font-weight: bold;
+        }
+    }
+    h2{
+        text-align: center;
+    }
+}

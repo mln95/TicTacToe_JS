@@ -1,0 +1,95 @@
+header .player {
+  position: relative;
+}
+
+header .playerOne {
+  background-color: #55CC1F;
+  margin: 0;
+  display: inline;
+  padding: 0.625em;
+  position: absolute;
+  left: 0;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+header .playerTwo {
+  background-color: #55CC1F;
+  display: inline;
+  text-align: right;
+  position: absolute;
+  right: 0;
+  margin: 0;
+  padding: 0.625em;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+header h2 {
+  text-align: center;
+}
+
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#global {
+  width: 18.75em;
+  margin: 0 auto;
+}
+
+section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  margin-top: 4.25em;
+  margin-bottom: 2.125em;
+}
+
+section div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 1;
+          flex: 1 1 1;
+  width: 6.25em;
+  height: 6.25em;
+  background-color: #FC5F47;
+  border: 1px solid pink;
+  cursor: pointer;
+}
+
+section div p {
+  font-size: 6.125em;
+  margin: 0;
+  text-align: center;
+  vertical-align: middle;
+  font-family: "Ubuntu";
+  line-height: 98px;
+  color: #ffffff;
+}
+
+section div:hover {
+  opacity: 0.5;
+}
+
+#restart {
+  padding: 1.25em;
+  background-color: #9fff73;
+  display: inline;
+  font-family: "Ubuntu";
+  color: #ffffff;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
